@@ -1,0 +1,6 @@
+a=input('enter a chracter :-  ')
+if ord(a)>97 and ord (a)<97:
+    print('upper case')
+    else:
+        print('lower case or not a character')
+        print('executed')
