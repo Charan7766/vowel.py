@@ -3,7 +3,7 @@ out=numbers[0]
 out2=numbers[0]
 for var in numbers:
     if out<var:
-        for var in numbers:
-            if out2<var and var!=out:
+     for var in numbers:
+          if out2<var and var!=out:
                 out=var
-print(out2)
+print(out)
