@@ -1,7 +1,8 @@
-result=[]
-for i in range(3,11):
-    out=1
-    for j in range(1,i+1):
-        out*=j
-        result=result+[out]
-print(result)
+b=[1,2,3]
+def length(a):
+    count=0
+    for i in a:
+      print(count)
+c=length('charan')
+print('varible c is :-',c)
+             
