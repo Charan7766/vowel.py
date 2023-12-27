@@ -1,6 +1,8 @@
-def sum(st,ev):
-    if st==ev:
-        return st
-    return st+sum(st+1,ev)
-out=sum(1,10)
-print(out)
+def generate():
+    a=5
+    while a:
+        yield a
+        a-=1
+        for b in generate():
+            print(b,end="")
+
